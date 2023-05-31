@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* Inicializo reseteando los valores predeterminados*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 1%;
+}
+
+/*creo grid para la page servicios tamaño desktop*/
+.productos__card {
+  background-color: white;
+  width: 90%;
+  margin-bottom: 10%;
+  text-align: start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.productos__card__descripcion {
+  padding-inline: 4%;
+  /*le doy formatos a imagenes de las card de los servicios*/
+}
+.productos__card__descripcion__brand {
+  color: grey;
+  margin-bottom: 4%;
+}
+.productos__card__descripcion__name {
+  font-size: 100%;
+  font-weight: bolder;
+  font-family: sans-serif;
+  line-height: 120%;
+  color: rgb(61, 61, 61);
+}
+.productos__card__descripcion__price {
+  font-size: 120%;
+  color: grey;
+}
+.productos__card__image {
+  text-align: center;
+  width: 100%;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin: 20px;
+  padding: 20%;
+}
+
+.formularioEnColumna {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main {
+  background-color: rgb(202, 202, 202);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 5%;
+}
+
+.centrarEncabezados {
+  text-align: center;
+  margin-block: 1.5%;
+}/*# sourceMappingURL=main.css.map */
